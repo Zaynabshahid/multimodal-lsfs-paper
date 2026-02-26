@@ -13,9 +13,9 @@
 
 ## Overview
 
-Modern operating systems manage data through rigid hierarchical structures — directories and absolute file paths — that were designed for deterministic human navigation. These structures are fundamentally misaligned with how AI agents work: associatively, probabilistically, and by semantic intent rather than location.
+Modern operating systems manage data through rigid hierarchical structures - directories and absolute file paths - that were designed for deterministic human navigation. These structures are fundamentally misaligned with how AI agents work: associatively, probabilistically, and by semantic intent rather than location.
 
-The **LLM-based Semantic File System (LSFS)** proposed a solution where files are accessed via natural language description rather than path-based addressing. However, it was limited to text-only data. A significant portion of real user data — screenshots, diagrams, photographs, and scanned documents — remained completely invisible to the system.
+The **LLM-based Semantic File System (LSFS)** proposed a solution where files are accessed via natural language description rather than path-based addressing. However, it was limited to text-only data. A significant portion of real user data - screenshots, diagrams, photographs, and scanned documents - remained completely invisible to the system.
 
 This research extends LSFS into a fully **multi-modal architecture**. By unifying visual and textual data into a single high-dimensional vector space, the system can now process queries like *"Find the server architecture diagram I saved last week"* and retrieve the correct image with high precision, even without any filename or text metadata attached to it.
 
@@ -76,7 +76,7 @@ File Monitor (inotify kernel events)
             |
             v
     Vector Store (Qdrant)
-    HNSW Index — O(log N)
+    HNSW Index - O(log N)
             |
             v
     Dual-Path Retriever
