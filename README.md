@@ -7,7 +7,7 @@
 **Date:** December 22, 2025  
 **Status:** Manuscript in Preparation
 
-> The full research paper is available here: Multi-Modal_LSFS_Research_Paper.pdf
+> The full research paper is available here: [Multi-Modal_LSFS_Research_Paper.pdf](./Multi-Modal_LSFS_Research_Paper.pdf)
 
 ---
 
